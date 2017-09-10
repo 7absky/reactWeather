@@ -1,17 +1,9 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
+const App = require('./components/App');
 require('./index.css');
 
-
-class HelloWorld extends React.Component {
-    render() {
-        return(
-            <h1> hello, world! </h1>
-        )
-    }
-}
-
 ReactDOM.render(
-    <HelloWorld />,
+    <App />,
     document.getElementById('app')
 );
